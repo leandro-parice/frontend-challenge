@@ -89,8 +89,8 @@ function App() {
 				</header>
 				<section>
 					<div className="title">
-						<h1>Johnny Roggers</h1>
-						<span>@johnnyroggers</span>
+						<h1>Leandro Parice</h1>
+						<span>@campaojau</span>
 					</div>
 					<ul className={color}>
 						<li>
