@@ -1,5 +1,7 @@
 # Frontend Challenge
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/985f5fce-ee83-484d-993d-1822b14092ef/deploy-status)](https://app.netlify.com/sites/leandroparice-frontend-challenge/deploys)
+
 For study purposes, I took advantage of an Instagram post [@coding*dev*](https://www.instagram.com/coding_dev_)
 Called ["Practice Frontend with these Challenges"](https://www.instagram.com/p/C94inT1yL4X/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==).
 The idea is to reproduce the frontend of each image shared in the post, and as I am studying ReactJS, bring to life the elements that indicate some application in real life.
