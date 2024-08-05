@@ -7,7 +7,7 @@ As I don't have access to any Figma or open layout files, everything visual was 
 
 I applied color buttons to simulate the template's color change. I used SVG to animate and change colors depending on the selected button.
 
-## Profile Card
+## 1) Profile Card
 
 https://leandroparice-frontend-challenge.netlify.app
 
