@@ -6,7 +6,6 @@ import {
 	XLogo,
 } from '@phosphor-icons/react';
 
-import headerBackground from './assets/header.svg';
 import { useState } from 'react';
 
 function App() {
