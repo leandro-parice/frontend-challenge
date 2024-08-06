@@ -1,0 +1,72 @@
+@import '../styles/colors.scss';
+
+header {
+	padding: 1.5rem 1.5rem 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+
+	& > svg {
+		position: absolute;
+		top: -10px;
+		left: -10px;
+		width: calc(100% + 20px);
+
+		path {
+			opacity: 0.5;
+			transition: all ease 0.3s;
+
+			&.p1 {
+				animation: moveHorizontal 10s infinite alternate ease;
+			}
+
+			&.p2 {
+				animation: moveHorizontal 15s infinite alternate ease;
+			}
+
+			&.p3 {
+				animation: moveHorizontal 20s infinite alternate ease;
+			}
+		}
+
+		@each $name, $color in $colors {
+			&.#{$name} {
+				.p1 {
+					fill: $color;
+				}
+
+				.p2 {
+					fill: darken($color, 10%);
+				}
+
+				.p3 {
+					fill: darken($color, 20%);
+				}
+			}
+		}
+	}
+
+	.avatar {
+		width: 7rem;
+		height: 7rem;
+		border-radius: 50%;
+		overflow: hidden;
+
+		img {
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+
+@keyframes moveHorizontal {
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+	50% {
+		transform: translateX(3px);
+	}
+}

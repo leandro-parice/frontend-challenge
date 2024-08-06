@@ -1,0 +1,51 @@
+@import '../styles/colors.scss';
+
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 2rem;
+	gap: 1.5rem;
+
+	h1 {
+		text-align: center;
+		color: $textColor;
+	}
+
+	span {
+		color: lighten($textColor, 10%);
+		font-size: 0.8rem;
+		display: block;
+		text-align: center;
+	}
+
+	ul {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		color: $textColor;
+		gap: 1.25rem;
+
+		li {
+			a {
+				color: $textColor;
+				transition: color ease 0.3s;
+			}
+		}
+
+		@each $name, $color in $colors {
+			&.#{$name} {
+				& a:hover {
+					color: darken($color, 10%);
+				}
+			}
+		}
+	}
+
+	p {
+		color: $textColor;
+		font-size: 0.8rem;
+		text-align: center;
+	}
+}

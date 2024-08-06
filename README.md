@@ -7,9 +7,9 @@ Called ["Practice Frontend with these Challenges"](https://www.instagram.com/p/C
 The idea is to reproduce the frontend of each image shared in the post, and as I am studying ReactJS, bring to life the elements that indicate some application in real life.
 As I don't have access to any Figma or open layout files, everything visual was based on the posted image.
 
-I applied color buttons to simulate the template's color change. I used SVG to animate and change colors depending on the selected button.
-
 ## 1) Profile Card
+
+I applied color buttons to simulate the template's color change. I used SVG to animate and change colors depending on the selected button.
 
 https://leandroparice-frontend-challenge.netlify.app
 
