@@ -20,5 +20,5 @@ https://leandroparice-frontend-challenge.netlify.app
 - Send props between components
 
 <div align="center">
-  <img height="350" src="src/assets/screenshot-1.png" alt="Frontend Challenge - Profile Card" />
+  <img height="399" src="src/assets/screenshot-1.png" alt="Frontend Challenge - Profile Card" />
 </div>
