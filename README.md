@@ -19,4 +19,6 @@ https://leandroparice-frontend-challenge.netlify.app
 - SASS
 - Send props between components
 
-(https://github.com/leandro-parice/frontend-challenge/blob/master/public/screenshot-1.png)
+<div align="center">
+  <img height="350" src="src/assets/screenshot-1.png" alt="Frontend Challenge - Profile Card" />
+</div>
