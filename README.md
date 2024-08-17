@@ -18,3 +18,5 @@ https://leandroparice-frontend-challenge.netlify.app
 - Flex grid
 - SASS
 - Send props between components
+
+(https://github.com/leandro-parice/frontend-challenge/blob/master/public/screenshot-1.png)
